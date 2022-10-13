@@ -1,0 +1,20 @@
+-fasta fasta.txt
+-secstruct_file secstruct.txt
+-constraints:cst_file constraint.cst
+-s 6vxx_rbd.pdb
+-nstruct 5
+-cycles 1000
+-docking_move_size 1.0
+-out:file:silent /dev/null
+-new_fold_tree_initializer true
+-minimize_rna false
+-rna:denovo:lores_scorefxn rna/denovo/rna_lores_with_rnp_aug.wts 
+-rna_protein_docking true
+-ignore_zero_occupancy false
+-convert_protein_CEN false
+-FA_low_res_rnp_scoring true
+-ramp_rnp_vdw true
+-mute protocols.moves.RigidBodyMover
+-no_filters
+-bps_moves false
+

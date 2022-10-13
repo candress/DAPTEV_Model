@@ -1,0 +1,1 @@
+be 1 directory out (cwd = python_script) and run the "run_all.py" file with ONLY_VAE set to true (best to do so with only 1 generation as well)
